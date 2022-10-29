@@ -31,7 +31,7 @@ class TitleScene extends Phaser.Scene {
     const pingServers = (sethtml = true) => {
       var servers = {
         //"us1": "https://sword-io-game.herokuapp.com", //"us1": "https://sword-io-game.herokuapp.com",
-        "us2": "https://wargardenz_us2.herokuapp.com", //"us2": "https://swordbattle2.herokuapp.com",
+        "us2": "https://wargardenz-us2.herokuapp.com", //"us2": "https://swordbattle2.herokuapp.com",
         //"eu1": "https://swordbattle.herokuapp.com"  //"eu1": "https://swordbattle.herokuapp.com"
       };
 
@@ -77,7 +77,7 @@ class TitleScene extends Phaser.Scene {
           pings.push(res3);
           //now calculate the optimal server.
           if (pings.filter(p => p.error).length == pings.length) {
-            alert("Could not find an available server. Please try again later.");
+           
           } else {
 
             var scores = pings.map(p => (p.ping*2) - (p.info.actualPlayercount ? p.info.actualPlayercount * 50 : 0) + (p.info.lag == "No lag" ? 0 : p.info.lag == "Moderate lag" ? 250 : 1000) + (p.info.playerCount > 15 ? Math.abs(15-p.info.playerCount)*100 : 0)).map((p) => !p ? Infinity : p);
