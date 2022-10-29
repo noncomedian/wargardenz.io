@@ -8,7 +8,7 @@ CAPTCHASECRET=6LeIewsgAAAAABWjEVCnFPR7POHFJbzZJM_OqKdQ
 CAPTCHASITE=6LeIewsgAAAAAPp9VS21fBk7VWQX3wps40gWrUWH
 
 USEFISHYSSL=false
-DATABASE_URL=postgres://fishymine:P7oU3-qbHjgPTFnZRat7kw@free-tier14.aws-us-east-1.cockroachlabs.cloud:26257/bilked-blob-1224.defaultdb
+DATABASE_URL=postgres://aldormz:kVo7mbU2TlM3afax3X0WEg@free-tier14.aws-us-east-1.cockroachlabs.cloud:26257/potent-laika-6152.defaultdb
 PRODUCTION=false
 SERVER=localhost
 `
