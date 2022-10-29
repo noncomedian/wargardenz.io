@@ -30,9 +30,9 @@ class TitleScene extends Phaser.Scene {
 
     const pingServers = (sethtml = true) => {
       var servers = {
-        "us1": "https://sword-io-game.herokuapp.com",
-        "us2": "https://swordbattle2.herokuapp.com",
-        "eu1": "https://swordbattle.herokuapp.com"
+        //"us1": "https://sword-io-game.herokuapp.com", //"us1": "https://sword-io-game.herokuapp.com",
+        "us2": "https://wargardenz_us2.herokuapp.com", //"us2": "https://swordbattle2.herokuapp.com",
+        //"eu1": "https://swordbattle.herokuapp.com"  //"eu1": "https://swordbattle.herokuapp.com"
       };
 
       var ping = (server) => {
@@ -176,7 +176,7 @@ class TitleScene extends Phaser.Scene {
 
 
     this.done = false;
-    this.text = this.add.text(this.canvas.width / 2, 0, "Swordbattle.io", {
+    this.text = this.add.text(this.canvas.width / 2, 0, "wargardenz.io", {
       fontSize: "64px",
       fill: "#000000"
     }).setOrigin(0.5);

@@ -1,11 +1,3 @@
-/*
-                           _ _           _   _   _        _       
- _____      _____  _ __ __| | |__   __ _| |_| |_| | ___  (_) ___  
-/ __\ \ /\ / / _ \| '__/ _` | '_ \ / _` | __| __| |/ _ \ | |/ _ \ 
-\__ \\ V  V / (_) | | | (_| | |_) | (_| | |_| |_| |  __/_| | (_) |
-|___/ \_/\_/ \___/|_|  \__,_|_.__/ \__,_|\__|\__|_|\___(_)_|\___/ 
-A game by Gautam
-*/
 const express = require("express");
 const https = require("https");
 var http = require("http");
@@ -51,10 +43,10 @@ if (process.env.USEFISHYSSL === "true") {
   usinghttps = true;
   var options = {
     key: fs.readFileSync(
-      "/etc/letsencrypt/live/www.swordbttle.io/privkey.pem"
+     // "/etc/letsencrypt/live/www.swordbttle.io/privkey.pem"
     ),
     cert: fs.readFileSync(
-      "/etc/letsencrypt/live/www.swordattle.io/fullchain.pem"
+      //"/etc/letsencrypt/live/www.swordattle.io/fullchain.pem"
     ),
   };
   httpsserver = https.createServer(options, app).listen(443);
@@ -79,7 +71,7 @@ const { v4: uuidv4 } = require("uuid");
 var passwordValidator = require("password-validator");
 var schema = new passwordValidator();
 app.use(express.json());
-app.disable("x-powered-by"); //Disable powered by header to prevent vulnerability scans against swordbattle.
+app.disable("x-powered-by"); //Disable powered by header to prevent vulnerability scans against wargardenz.
 // Add properties to it
 schema
   .is()
@@ -493,7 +485,7 @@ app.post("/api/signup",checkifMissingFields, async (req, res) => {
 if(recaptcha) {
   axios
     .post(
-      "https://www.google.com/recaptcha/api/siteverify?" +
+      //"https://www.google.com/recaptcha/api/siteverify?" +
   new URLSearchParams(send)
     )
     .then(async (f) => {
@@ -543,7 +535,7 @@ app.post("/api/login",checkifMissingFields, async (req, res) => {
 	if(recaptcha) {
 		axios
 			.post(
-				"https://www.google.com/recaptcha/api/siteverify?" +
+			//	"https://www.google.com/recaptcha/api/siteverify?" +
 	  new URLSearchParams(send)
 			)
 			.then(async (f) => {
@@ -587,7 +579,7 @@ app.post("/api/loginsecret", async (req, res) => {
   if (recaptcha) {
     axios
       .post(
-        "https://www.google.com/recaptcha/api/siteverify?" +
+      //  "https://www.google.com/recaptcha/api/siteverify?" +
           new URLSearchParams(send)
       )
       .then(async (f) => {
@@ -913,7 +905,7 @@ io.on("connection", async (socket) => {
 		if(recaptcha) {
 			axios
 				.post(
-					"https://www.google.com/recaptcha/api/siteverify?" +
+				//"https://www.google.com/recaptcha/api/siteverify?" +
           new URLSearchParams(send)
 				)
 				.then((f) => {
