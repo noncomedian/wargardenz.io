@@ -1,5 +1,5 @@
 self.addEventListener("install", (e) => {
-  console.log("[SW] Hello from service worker. (pssst you should sub to coder gautam on yt)");
+  console.log("[SW] Hello from service worker. (psss, follow me in instagram)");
 });
 
    self.addEventListener("fetch", function(event) {
