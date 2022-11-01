@@ -8,7 +8,7 @@
     "prod": "webpack --config webpackprod.config.js",
     "heroku-postbuild": "node setup",
     "watch": "webpack --config webpack.config.js --watch --progress",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node index.js --unhandled-rejections=strict",
     "start": "node index.js --unhandled-rejections=strict"
   },
   "keywords": [],
