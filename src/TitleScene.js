@@ -77,7 +77,7 @@ class TitleScene extends Phaser.Scene {
           pings.push(res3);
           //now calculate the optimal server.
           if (pings.filter(p => p.error).length == pings.length) {
-           
+            alert("Could not find an available server. Please try again later.");
           } else {
 
             var scores = pings.map(p => (p.ping*2) - (p.info.actualPlayercount ? p.info.actualPlayercount * 50 : 0) + (p.info.lag == "No lag" ? 0 : p.info.lag == "Moderate lag" ? 250 : 1000) + (p.info.playerCount > 15 ? Math.abs(15-p.info.playerCount)*100 : 0)).map((p) => !p ? Infinity : p);
