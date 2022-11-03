@@ -434,11 +434,11 @@ class GameScene extends Phaser.Scene {
 							this.deathRect.destroy();
 							this.deathRect = this.add.rectangle(this.canvas.width/2, this.canvas.height/2, this.canvas.width/2, this.canvas.height/1.5, 0x90EE90);
               this.deadText.destroy();
-				this.deadText = this.add.text(this.canvas.width/2, (this.deathRect.y- (this.deathRect.height/2)), "You got stabbed", {fontFamily: "Arial", fontSize: "32px", color: "#000000"}).setOrigin(0.5);
+				this.deadText = this.add.text(this.canvas.width/2, (this.deathRect.y- (this.deathRect.height/2)), "YOU DIED", {fontFamily: "Arial", fontSize: "32px", color: "#000000"}).setOrigin(0.5);
 								this.deadText.setFontSize(Math.min(this.canvas.width/25,this.canvas.height/20));
 								this.deadText.y += this.deadText.height;
 								
-								var msgs = ["Nooooooooo", "Rest in peace", "You can do better!", "Practice makes perfect!", "Keep trying!"];
+								var msgs = ["Nooooooooo", "Rest in peace", "You can do better!", "Practice makes perfect!", "Keep trying!", "gg"];
 								var msg = msgs[Math.floor(Math.random() * msgs.length)];
               this.dataText.destroy();
 								this.dataText = this.add.text(this.canvas.width/2, this.deadText.y, msg, {fontFamily: "Arial", fontSize: "32px", color: "#000000"}).setOrigin(0.5);

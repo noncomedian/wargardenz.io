@@ -11,24 +11,44 @@
             "name": "neon",
             "displayName": "Neon",
             "url": "/assets/images/neonPlayer.png",
-            "price": 100,
+            "price": 500,
             "description": "¿Donde estoy?"
         },
         {
             "name": "sponge",
             "displayName": "Sponge",
             "url": "/assets/images/spongePlayer.png",
-            "price": 250,
+            "price": 1000,
             "description": "._."
         },
         {
             "name": "vortex",
             "displayName": "Vortex",
             "url": "/assets/images/vortexPlayer.png",
-            "price": 200,
+            "price": 1200,
             "description": ">:("
+        },
+        {
+            "name": "bubble",
+            "displayName": "Bubble",
+            "url": "/assets/images/bubblePlayer.png",
+            "price": 1300,
+            "description": "*explota*"
+        },
+        {
+            "name": "amarillo",
+            "displayName": "amarillo",
+            "url": "/assets/images/amarilloPlayer.png",
+            "price": 1400,
+            "description": "AMARILLO"
+        },
+        {
+            "name": "nerdyn",
+            "displayName": "nerdyn",
+            "url": "/assets/images/nerdynPlayer.png",
+            "price": 1500,
+            "description": "Ummm... emm... disculpa..."
         }
-        
 
     ]
 }
