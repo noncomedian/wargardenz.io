@@ -3,7 +3,7 @@
 const Evolution = require("./Evolution");
 
 const Knight = require("./Knight");
-const Vampire = require("./Vampire");
+const Ratoncin = require("./Ratoncin");
 
 class Spider extends Evolution {
     constructor() {
@@ -11,7 +11,7 @@ class Spider extends Evolution {
         this.name = "spider";
         this.abilityDuration = 10000;
         this.abilityCooldown = 60000;
-        this.subEvolutions = [20000, new Knight(), new Vampire()];
+        this.subEvolutions = [20000, new Knight(), new Ratoncin()];
     }
     default() {
         return {

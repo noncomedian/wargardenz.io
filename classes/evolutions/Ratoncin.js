@@ -3,7 +3,7 @@ const Evolution = require("./Evolution");
 class Warrior extends Evolution {
     constructor() {
         super();
-        this.name = "vampire";
+        this.name = "ratoncin";
         this.abilityDuration = 7000;
         this.abilityCooldown = 40000;
         this.subEvolutions = [];

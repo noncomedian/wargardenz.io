@@ -125,7 +125,7 @@ if (production) {
 var oldlevels = [
 	{coins: 5, scale: 0.28},
 	{coins: 15, scale: 0.32},
-	{coins: 25, scale: 0.35, evolutions: [evolutions.abeja, evolutions.spider]},
+	{coins: 25, scale: 0.35},
 	{coins: 35, scale: 0.4},
 	{coins: 50, scale: 0.45},
 	{coins: 75, scale: 0.47},

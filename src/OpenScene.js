@@ -60,8 +60,8 @@ var progress = 1 - (remainder / total);
         // knight evolution
         this.load.image("knightPlayer", "/assets/images/knightSkin.png");
 
-        // vampire evolution
-        this.load.image("vampirePlayer", "/assets/images/vampireSkin.png");
+        // ratoncin evolution
+        this.load.image("ratoncinPlayer", "/assets/images/ratoncinSkin.png");
         // rook evolution
         this.load.image("rookPlayer", "/assets/images/rookSkin.png");
 
@@ -72,8 +72,8 @@ var progress = 1 - (remainder / total);
         // knight evolution
         this.load.image("knightPlayer", "/assets/images/knightSkin.png");
 
-        // vampire evolution
-        this.load.image("vampirePlayer", "/assets/images/vampireSkin.png");
+        // ratoncin evolution
+        this.load.image("ratoncinPlayer", "/assets/images/ratoncinSkin.png");
         // rook evolution
         this.load.image("rookPlayer", "/assets/images/rookSkin.png");
 
