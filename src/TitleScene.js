@@ -32,7 +32,7 @@ class TitleScene extends Phaser.Scene {
       var servers = {
         "us1": "https://wargardenz.herokuapp.com", //"us1": "https://sword-io-game.herokuapp.com",
         "us2": "https://wargardenz2.herokuapp.com", //"us2": "https://swordbattle2.herokuapp.com",
-        "eu1": "https://wargardenz-eu1.herokuapp.com"  //"eu1": "https://swordbattle.herokuapp.com"
+        "eu1": "https://wargarden.herokuapp.com"  //"eu1": "https://swordbattle.herokuapp.com"
       };
 
       var ping = (server) => {
@@ -263,7 +263,7 @@ class TitleScene extends Phaser.Scene {
 
         if (this.playPreroll) {
           if (typeof aiptag.adplayer !== "undefined") {
-            this.nameBox.getChildByName("btn").innerHTML = "Connecting..";
+            this.nameBox.getChildByName("btn").innerHTML = "Connecting...";
             this.nameBox.getChildByName("btn").style.backgroundColor = "grey";
             this.music.stop();
 
@@ -331,7 +331,7 @@ class TitleScene extends Phaser.Scene {
     this.secret = undefined;
 
     const login = (secret) => {
-      this.nameBox.getChildByName("btn").innerHTML = "Connecting..";
+      this.nameBox.getChildByName("btn").innerHTML = "Connecting...";
       this.nameBox.getChildByName("btn").disabled = true;
       console.log("Attempting to login");
       grecaptcha.ready(() => {
@@ -466,7 +466,7 @@ class TitleScene extends Phaser.Scene {
 this.shopLoading = false;
     this.shopBtn = new ImgButton(this, 10, 10, "shopBtn", () => {
       if(this.shopLoading) return;
-      if(this.nameBox.getChildByName("btn").innerHTML == "Connecting..") return;
+      if(this.nameBox.getChildByName("btn").innerHTML == "Connecting...") return;
       document.getElementById("shopFrame").contentWindow.location.replace("/shop?secret=" + this.secret);
       var frame = document.getElementById("shopFrame");
       this.shopLoading = true;

@@ -48,6 +48,13 @@
             "url": "/assets/images/nerdynPlayer.png",
             "price": 1500,
             "description": "Ummm... emm... disculpa..."
+        },
+        {
+            "name": "Real?",
+            "displayName": "real",
+            "url": "/assets/images/realPlayer.png",
+            "price": 333333,
+            "description": "se ve familiar"
         }
 
     ]
