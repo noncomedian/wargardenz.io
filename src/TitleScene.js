@@ -32,7 +32,7 @@ class TitleScene extends Phaser.Scene {
       var servers = {
         "us1": "https://wargardenz.herokuapp.com", //"us1": "https://sword-io-game.herokuapp.com",
         "us2": "https://wargardenz2.herokuapp.com", //"us2": "https://swordbattle2.herokuapp.com",
-        "eu1": "https://wargardenz-eu1.herokuapp.com"  //"eu1": "https://swordbattle.herokuapp.com"
+        "eu1": "https://wargarden.herokuapp.com"  //"eu1": "https://swordbattle.herokuapp.com"
       };
 
       var ping = (server) => {
@@ -263,7 +263,7 @@ class TitleScene extends Phaser.Scene {
 
         if (this.playPreroll) {
           if (typeof aiptag.adplayer !== "undefined") {
-            this.nameBox.getChildByName("btn").innerHTML = "Connecting..";
+            this.nameBox.getChildByName("btn").innerHTML = "Connecting...";
             this.nameBox.getChildByName("btn").style.backgroundColor = "grey";
             this.music.stop();
 

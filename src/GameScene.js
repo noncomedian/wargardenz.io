@@ -493,7 +493,7 @@ class GameScene extends Phaser.Scene {
 					doit = setTimeout(resize, 100);
 				  });
 				//go packet
-				var server = this.options.server == "eu1" ? "wss://wargardenz-eu1.herokuapp.com" : this.options.server == "us2" ? "wss://wargardenz2.herokuapp.com" : "wss://wargardenz.herokuapp.com";
+				var server = this.options.server == "eu1" ? "wss://wargarden.herokuapp.com" : this.options.server == "us2" ? "wss://wargardenz2.herokuapp.com" : "wss://wargardenz.herokuapp.com";
 				// server = undefined; // Enable for localhost/development
 				function isPrivateIP(ip) {
 					//remove port if present
@@ -1649,7 +1649,7 @@ class GameScene extends Phaser.Scene {
 							ease: "Sine2",
 							onComplete: () => {
 								window.onbeforeunload = () => {};
-										this.deadText = this.add.text(this.canvas.width/2, (this.deathRect.y- (this.deathRect.height/2)), "You got stabbed", {fontFamily: "Arial", fontSize: "32px", color: "#000000"}).setOrigin(0.5);
+										this.deadText = this.add.text(this.canvas.width/2, (this.deathRect.y- (this.deathRect.height/2)), "YOU DIED", {fontFamily: "Arial", fontSize: "32px", color: "#000000"}).setOrigin(0.5);
                 this.cameras.main.ignore(this.deadText);
 								this.deadText.setFontSize(Math.min(this.canvas.width/25,this.canvas.height/20));
 								this.deadText.y += this.deadText.height;
