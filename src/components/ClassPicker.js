@@ -4,7 +4,7 @@ export default class ClassPicker extends EventEmitter {
   constructor(scene) {
     super();
 //    this.draw(scene);
-this.text1 = "Araña";
+this.text1 = "Spider";
 this.text2 = "Abeja";
   }
   draw(scene) {

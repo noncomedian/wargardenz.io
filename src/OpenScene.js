@@ -65,8 +65,8 @@ var progress = 1 - (remainder / total);
         // rook evolution
         this.load.image("rookPlayer", "/assets/images/rookSkin.png");
 
-        this.load.image("berserkerPlayer", "/assets/images/berserkerSkin.png");
-        this.load.image("tankPlayer", "/assets/images/tankSkin.png");
+        this.load.image("spiderPlayer", "/assets/images/spiderSkin.png");
+        this.load.image("abejaPlayer", "/assets/images/abejaSkin.png");
         // warrior evolution
         this.load.image("warriorPlayer", "/assets/images/warriorSkin.png");
         // knight evolution

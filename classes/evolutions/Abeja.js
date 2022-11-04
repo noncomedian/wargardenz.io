@@ -5,10 +5,10 @@ const Evolution = require("./Evolution");
 const Warrior = require("./Warrior");
 const Rook = require("./Rook");
 
-class Tank extends Evolution {
+class Abeja extends Evolution {
     constructor() {
         super();
-        this.name = "tank";
+        this.name = "abeja";
         this.abilityDuration = 5000;
         this.abilityCooldown = 60000;
         this.subEvolutions = [20000, new Warrior(), new Rook()];
@@ -38,4 +38,4 @@ class Tank extends Evolution {
         };
     }
 }
-module.exports = Tank;
+module.exports = Abeja;

@@ -55,6 +55,13 @@
             "url": "/assets/images/realPlayer.png",
             "price": 333333,
             "description": "se ve familiar"
+        },
+        {
+            "name": "Polilla",
+            "displayName": "polilla",
+            "url": "/assets/images/polillaPlayer.png",
+            "price": 999999,
+            "description": "zZz"
         }
 
     ]

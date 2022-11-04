@@ -125,7 +125,7 @@ if (production) {
 var oldlevels = [
 	{coins: 5, scale: 0.28},
 	{coins: 15, scale: 0.32},
-	{coins: 25, scale: 0.35},
+	{coins: 25, scale: 0.35, evolutions: [evolutions.abeja, evolutions.spider]},
 	{coins: 35, scale: 0.4},
 	{coins: 50, scale: 0.45},
 	{coins: 75, scale: 0.47},
@@ -146,7 +146,7 @@ var oldlevels = [
 	{coins: 2750, scale: 1.1},
 	{coins: 3000, scale: 1.15},
   {coins: 4000, scale: 1.17},
-	{coins: 5000, scale: 1.2, evolutions: [evolutions.tank, evolutions.berserker]},
+	{coins: 5000, scale: 1.2, evolutions: [evolutions.abeja, evolutions.spider]},
 	{coins: 7500, scale: 1.3},
 	{coins: 9000, scale: 1.5},
 	{coins: 10000, scale: 1.53},
