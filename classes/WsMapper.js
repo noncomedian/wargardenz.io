@@ -35,7 +35,7 @@ class Socket extends EventEmitter {
   }
 
   send(...args) {
-    if(args.length > 2) return console.trace("TOO MUCH DATA");
+    if(args.length > 2) return console.trace("TOO MUCH DATA, DISCONNECTED");
     var toSend = {
       t: args[0],
       d: args[1]
