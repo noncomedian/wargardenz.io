@@ -71,11 +71,11 @@
             "description": "Parecido a este ------->"
         },
         {
-            "name": "aldormzcode",
+            "name": "aldo",
             "displayName": "AldoRmzCode",
-            "url": "/assets/images/aldormzPlayer.png",
-            "price": 2003,
-            "description": "El desarrollador"
+            "url": "/assets/images/aldoPlayer.png",
+            "price": 1800,
+            "description": "el pobre desarrollador del juego"
         },
         {
             "name": "Real?",
