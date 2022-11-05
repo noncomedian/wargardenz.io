@@ -50,8 +50,36 @@
             "description": "Ummm... emm... disculpa..."
         },
         {
+            "name": "mariquita",
+            "displayName": "mariquita",
+            "url": "/assets/images/mariquitaPlayer.png",
+            "price": 1600,
+            "description": "feliz feliz"
+        },
+        {
+            "name": "uwu",
+            "displayName": "UwU",
+            "url": "/assets/images/uwuPlayer.png",
+            "price": 1700,
+            "description": "UwU"
+        },
+        {
+            "name": "clown",
+            "displayName": "clown",
+            "url": "/assets/images/clownPlayer.png",
+            "price": 1800,
+            "description": "Parecido a este ------->"
+        },
+        {
+            "name": "Aldo",
+            "displayName": "AldoRmzCode",
+            "url": "/assets/images/aldoPlayer.png",
+            "price": 2003,
+            "description": "El desarrollador (muy pobre)"
+        },
+        {
             "name": "Real?",
-            "displayName": "real",
+            "displayName": "real?",
             "url": "/assets/images/realPlayer.png",
             "price": 333333,
             "description": "se ve familiar"
@@ -60,8 +88,22 @@
             "name": "Polilla",
             "displayName": "polilla",
             "url": "/assets/images/polillaPlayer.png",
-            "price": 999999,
+            "price": 900000,
             "description": "zZz"
+        },
+        {
+            "name": "omega",
+            "displayName": "OMEGA",
+            "url": "/assets/images/omegaPlayer.png",
+            "price": 9999000,
+            "description": "asdfghjkl"
+        },
+        {
+            "name": "terror",
+            "displayName": "terror",
+            "url": "/assets/images/terrorPlayer.png",
+            "price": 10000000,
+            "description": "poco apetito"
         }
 
     ]
