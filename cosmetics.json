@@ -32,50 +32,78 @@
             "name": "bubble",
             "displayName": "Bubble",
             "url": "/assets/images/bubblePlayer.png",
-            "price": 1300,
+            "price": 1500,
             "description": "*explota*"
         },
         {
             "name": "amarillo",
             "displayName": "amarillo",
             "url": "/assets/images/amarilloPlayer.png",
-            "price": 1400,
+            "price": 1800,
             "description": "AMARILLO"
         },
         {
             "name": "nerdyn",
             "displayName": "nerdyn",
             "url": "/assets/images/nerdynPlayer.png",
-            "price": 1500,
+            "price": 2000,
             "description": "Ummm... emm... disculpa..."
         },
         {
             "name": "mariquita",
             "displayName": "mariquita",
             "url": "/assets/images/mariquitaPlayer.png",
-            "price": 1600,
+            "price": 2500,
             "description": "feliz feliz"
+        },
+        {
+            "name": "hormiga",
+            "displayName": "Hormiga",
+            "url": "/assets/images/hormigaPlayer.png",
+            "price": 2600,
+            "description": ">>>:("
         },
         {
             "name": "uwu",
             "displayName": "UwU",
             "url": "/assets/images/uwuPlayer.png",
-            "price": 1700,
+            "price": 2800,
             "description": "UwU"
         },
         {
             "name": "clown",
             "displayName": "clown",
             "url": "/assets/images/clownPlayer.png",
-            "price": 1800,
+            "price": 2850,
             "description": "Parecido a este ------->"
         },
         {
             "name": "aldo",
             "displayName": "AldoRmzCode",
             "url": "/assets/images/aldoPlayer.png",
-            "price": 1800,
-            "description": "el pobre desarrollador del juego"
+            "price": 33333,
+            "description": "desarrollador del juego"
+        },
+        {
+            "name": "ghost",
+            "displayName": "Ghost",
+            "url": "/assets/images/ghostPlayer.png",
+            "price": 50000,
+            "description": "boo"
+        },
+        {
+            "name": "zombie",
+            "displayName": "ZombieeEe",
+            "url": "/assets/images/zombiePlayer.png",
+            "price": 75000,
+            "description": "un poco cansado"
+        },
+        {
+            "name": "toxic",
+            "displayName": "Toxic",
+            "url": "/assets/images/toxicPlayer.png",
+            "price": 90000,
+            "description": "sabor ácido"
         },
         {
             "name": "Real?",
@@ -89,20 +117,34 @@
             "displayName": "polilla",
             "url": "/assets/images/polillaPlayer.png",
             "price": 900000,
-            "description": "zZz"
+            "description": "ama las lamparas"
+        },
+        {
+            "name": "icepolilla",
+            "displayName": "IcePolilla",
+            "url": "/assets/images/icepolillaPlayer.png",
+            "price": 1000000,
+            "description": "ama el frio y las lamparas"
+        },
+        {
+            "name": "lavapolilla",
+            "displayName": "LavaPolilla",
+            "url": "/assets/images/lavapolillaPlayer.png",  
+            "price": 1500000,
+            "description": "ama las lamparas de lava"
         },
         {
             "name": "omega",
             "displayName": "OMEGA",
             "url": "/assets/images/omegaPlayer.png",
-            "price": 9999000,
+            "price": 10000000,
             "description": "asdfghjkl"
         },
         {
             "name": "terror",
             "displayName": "terror",
             "url": "/assets/images/terrorPlayer.png",
-            "price": 10000000,
+            "price": 15000000,
             "description": "poco apetito"
         }
 
