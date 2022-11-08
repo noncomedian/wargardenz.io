@@ -92,6 +92,13 @@
             "description": "boo"
         },
         {
+            "name": "colors",
+            "displayName": "Colors",
+            "url": "/assets/images/colorsPlayer.png",
+            "price": 60000,
+            "description": "coloridos"
+        },
+        {
             "name": "zombie",
             "displayName": "ZombieeEe",
             "url": "/assets/images/zombiePlayer.png",
@@ -111,6 +118,20 @@
             "url": "/assets/images/realPlayer.png",
             "price": 333333,
             "description": "se ve familiar"
+        },
+        {
+            "name": "Cartoon",
+            "displayName": "Cartoon",
+            "url": "/assets/images/cartoonPlayer.png",
+            "price": 500000,
+            "description": "nostalgia"
+        },
+        {
+            "name": "Crazy",
+            "displayName": "crazy",
+            "url": "/assets/images/crazyPlayer.png",
+            "price": 555555,
+            "description": "ñam ñam ñam ñam ñam ñam ñam ñam ñam"
         },
         {
             "name": "Polilla",
@@ -146,7 +167,13 @@
             "url": "/assets/images/terrorPlayer.png",
             "price": 15000000,
             "description": "poco apetito"
+        },
+        {
+            "name": "savage",
+            "displayName": "Savage",
+            "url": "/assets/images/savagePlayer.png",
+            "price": 20000000,
+            "description": "corran!"
         }
-
     ]
 }
