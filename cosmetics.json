@@ -36,52 +36,59 @@
             "description": "*explota*"
         },
         {
+            "name": "colors",
+            "displayName": "Colors",
+            "url": "/assets/images/colorsPlayer.png",
+            "price": 2000,
+            "description": "coloridos"
+        },
+        {
             "name": "amarillo",
             "displayName": "amarillo",
             "url": "/assets/images/amarilloPlayer.png",
-            "price": 1800,
+            "price": 2500,
             "description": "AMARILLO"
         },
         {
             "name": "nerdyn",
             "displayName": "nerdyn",
             "url": "/assets/images/nerdynPlayer.png",
-            "price": 2000,
+            "price": 3000,
             "description": "Ummm... emm... disculpa..."
         },
         {
             "name": "mariquita",
             "displayName": "mariquita",
             "url": "/assets/images/mariquitaPlayer.png",
-            "price": 2500,
+            "price": 3500,
             "description": "feliz feliz"
         },
         {
             "name": "hormiga",
             "displayName": "Hormiga",
             "url": "/assets/images/hormigaPlayer.png",
-            "price": 2600,
+            "price": 3600,
             "description": ">>>:("
         },
         {
             "name": "uwu",
             "displayName": "UwU",
             "url": "/assets/images/uwuPlayer.png",
-            "price": 2800,
+            "price": 3800,
             "description": "UwU"
         },
         {
             "name": "clown",
             "displayName": "clown",
             "url": "/assets/images/clownPlayer.png",
-            "price": 2850,
-            "description": "Parecido a este ------->"
+            "price": 3850,
+            "description": "*honk honk*"
         },
         {
             "name": "aldo",
             "displayName": "AldoRmzCode",
             "url": "/assets/images/aldoPlayer.png",
-            "price": 33333,
+            "price": 50000,
             "description": "desarrollador del juego"
         },
         {
@@ -106,11 +113,39 @@
             "description": "sabor ácido"
         },
         {
+            "name": "seta",
+            "displayName": "Seta",
+            "url": "/assets/images/setaPlayer.png",
+            "price": 150000,
+            "description": "super letal"
+        },
+        {
             "name": "Real?",
             "displayName": "real?",
             "url": "/assets/images/realPlayer.png",
             "price": 333333,
             "description": "se ve familiar"
+        },
+        {
+            "name": "stone",
+            "displayName": "Stone",
+            "url": "/assets/images/stonePlayer.png",
+            "price": 450000,
+            "description": "un tipo duro"
+        },
+        {
+            "name": "Cartoon",
+            "displayName": "Cartoon",
+            "url": "/assets/images/cartoonPlayer.png",
+            "price": 500000,
+            "description": "nostalgia"
+        },
+        {
+            "name": "Crazy",
+            "displayName": "crazy",
+            "url": "/assets/images/crazyPlayer.png",
+            "price": 555555,
+            "description": "ñam ñam ñam ñam ñam ñam ñam ñam ñam"
         },
         {
             "name": "Polilla",
@@ -134,19 +169,39 @@
             "description": "ama las lamparas de lava"
         },
         {
+            "name": "evilseta",
+            "displayName": "Evil seta",
+            "url": "/assets/images/evilsetaPlayer.png",
+            "price": 20000000,
+            "description": "NO TOCAR"
+        },
+        {
             "name": "omega",
             "displayName": "OMEGA",
             "url": "/assets/images/omegaPlayer.png",
-            "price": 10000000,
+            "price": 20000000,
             "description": "asdfghjkl"
         },
         {
             "name": "terror",
             "displayName": "terror",
             "url": "/assets/images/terrorPlayer.png",
-            "price": 15000000,
+            "price": 25000000,
             "description": "poco apetito"
+        },
+        {
+            "name": "ultrastone",
+            "displayName": "Ultra Stone",
+            "url": "/assets/images/ultrastonePlayer.png",
+            "price": 30000000,
+            "description": "tanto poder..."
+        },
+        {
+            "name": "savage",
+            "displayName": "Savage",
+            "url": "/assets/images/savagePlayer.png",
+            "price": 50000000,
+            "description": "corran!"
         }
-
     ]
 }

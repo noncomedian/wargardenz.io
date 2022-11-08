@@ -44,8 +44,8 @@ function getRandomInt(min, max) {
           health: 750
         }
       };
-      this.width = 352;
-      this.height = 223;
+      this.width = 310;
+      this.height = 310;
       
       this.scale = this.raritys[this.rarity].scale;
       this.width *= this.scale;
