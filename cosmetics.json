@@ -106,6 +106,27 @@
             "description": "un poco cansado"
         },
         {
+            "name": "minibee",
+            "displayName": "Mini Bee",
+            "url": "/assets/images/minibeePlayer.png",
+            "price": 75000,
+            "description": "abeja pequeña"
+        },
+        {
+            "name": "blueberry",
+            "displayName": "Blueberry",
+            "url": "/assets/images/blueberryPlayer.png",
+            "price": 80000,
+            "description": "mora transgenica"
+        },
+        {
+            "name": "cookie",
+            "displayName": "Cookie",
+            "url": "/assets/images/cookiePlayer.png",
+            "price": 85000,
+            "description": "galleta de chocolate"
+        },
+        {
             "name": "toxic",
             "displayName": "Toxic",
             "url": "/assets/images/toxicPlayer.png",
@@ -118,6 +139,13 @@
             "url": "/assets/images/setaPlayer.png",
             "price": 150000,
             "description": "super letal"
+        },
+        {
+            "name": "sadseta",
+            "displayName": "Sad Seta",
+            "url": "/assets/images/sadPlayer.png",
+            "price": 200000,
+            "description": "llora esporas"
         },
         {
             "name": "Real?",
@@ -183,6 +211,13 @@
             "description": "asdfghjkl"
         },
         {
+            "name": "amigable",
+            "displayName": "amigable",
+            "url": "/assets/images/amigablePlayer.png",
+            "price": 25000000,
+            "description": "es importante serlo"
+        },
+        {
             "name": "terror",
             "displayName": "terror",
             "url": "/assets/images/terrorPlayer.png",
@@ -190,10 +225,17 @@
             "description": "poco apetito"
         },
         {
+            "name": "hambre",
+            "displayName": "Hambriento",
+            "url": "/assets/images/hambrePlayer.png",
+            "price": 35000000,
+            "description": "de lo mas grafico en WG"
+        },
+        {
             "name": "ultrastone",
             "displayName": "Ultra Stone",
             "url": "/assets/images/ultrastonePlayer.png",
-            "price": 30000000,
+            "price": 40000000,
             "description": "tanto poder..."
         },
         {
