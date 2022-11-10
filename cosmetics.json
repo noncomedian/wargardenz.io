@@ -57,6 +57,13 @@
             "description": "Ummm... emm... disculpa..."
         },
         {
+            "name": "glich",
+            "displayName": "glich",
+            "url": "/assets/images/glichPlayer.png",
+            "price": 3000,
+            "description": "error.exe"
+        },
+        {
             "name": "mariquita",
             "displayName": "mariquita",
             "url": "/assets/images/mariquitaPlayer.png",
@@ -83,6 +90,13 @@
             "url": "/assets/images/clownPlayer.png",
             "price": 3850,
             "description": "*honk honk*"
+        },
+        {
+            "name": "pixel",
+            "displayName": "Pixel",
+            "url": "/assets/images/pixelPlayer.png",
+            "price": 3850,
+            "description": "retro"
         },
         {
             "name": "aldo",
@@ -197,11 +211,11 @@
             "description": "ama las lamparas de lava"
         },
         {
-            "name": "evilseta",
-            "displayName": "Evil seta",
-            "url": "/assets/images/evilsetaPlayer.png",
+            "name": "virus",
+            "displayName": "Virus",
+            "url": "/assets/images/virusPlayer.png",
             "price": 20000000,
-            "description": "NO TOCAR"
+            "description": "010101010001010101010010101010101011"
         },
         {
             "name": "omega",
@@ -209,6 +223,13 @@
             "url": "/assets/images/omegaPlayer.png",
             "price": 20000000,
             "description": "asdfghjkl"
+        },
+        {
+            "name": "evilseta",
+            "displayName": "Evil seta",
+            "url": "/assets/images/evilsetaPlayer.png",
+            "price": 25000000,
+            "description": "NO TOCAR"
         },
         {
             "name": "amigable",
@@ -245,5 +266,6 @@
             "price": 50000000,
             "description": "corran!"
         }
+        
     ]
 }
