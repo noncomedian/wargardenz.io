@@ -1,2 +1,4 @@
 asasdasf
 02/11/2022: commit "prueba heroku con github"
+
+10/11/2022; se borra "Procfile"
