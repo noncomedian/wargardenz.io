@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 node_modules/
 .env
+.notas
 # Compiled source #
 ###################
 .breakpoints
