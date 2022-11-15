@@ -17,3 +17,15 @@ CSS:
 
 
 background-image: url("/images/background.jpeg");
+
+
+shop.ejs ----
+line: 95 color de carta en datos
+
+openScene:
+line 32: "003800" ---color de la pantalla verde inicial
+line: 33 "loaging en pantalla verde inicial"
+
+
+Tittle Scene:
+line: 179 = TITULO DEL JUEGO EN PANTALLA PRINCIPAL

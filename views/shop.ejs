@@ -37,7 +37,8 @@ img {
 }
 
 .card_image {
-  background-color: rgb(109, 0, 73);
+  background: linear-gradient(to bottom left, #9b006c 10%, rgb(109, 0, 73) 100%);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 
 .btn {
@@ -92,7 +93,7 @@ img {
 }
 
 .card {
-  background: linear-gradient(to bottom left, #0a3e0a 5%, green 100%);
+  background: linear-gradient(to bottom left, #062506 7%, green 100%);
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
@@ -299,7 +300,7 @@ function numberWithCommas(x) {
       <% } else { %>
         <div style="background-color: black;">
   <h1 style="color: white;"><br>Please log in or sign up to access the shop.<br></h1>
-  <center><button id="closeShop" style="font-size: xx-large;">Close</button></center>
+  <center><button id="closeShop" style="font-size: xx-large;">Ok</button></center>
   <br>
 </div>
 <% }  %>

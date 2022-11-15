@@ -174,13 +174,14 @@ class TitleScene extends Phaser.Scene {
     if (access) this.nameBox.getChildByName("name").value = window.localStorage.getItem("oldName") ? window.localStorage.getItem("oldName") : "";
     else this.nameBox.getChildByName("name").value = "";
 
-
+//Titulo del juego pantalla principal
     this.done = false;
     this.text = this.add.text(this.canvas.width / 2, 0, "wargardenz.io", {
-      fontSize: "64px",
+      fontSize: "70px",
       fill: "#000000"
+      // font-weight: 100;
     }).setOrigin(0.5);
-
+//musica:
     if (this.options.sound == "normal") {
       this.music.volume = 0.5;
     } else if (this.options.sound == "high") {

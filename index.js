@@ -263,7 +263,7 @@ app.post("/api/buy", async (req, res) => {
         return;
       }
       if (acc.bal < item.price) {
-        res.status(406).send("Not enough coins");
+        res.status(406).send("Not enough coins :(");
         return;
       }
 
