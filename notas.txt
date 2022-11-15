@@ -4,3 +4,16 @@ asasdasf
 10/11/2022; se borra "Procfile"
 
 alternativa nueva: NUEVA BASE DE DATOS.
+
+
+
+CSS:
+.about-section {
+  padding: 20px; ----------tamaño de barra de "TEAM"
+  text-align: center;
+  background-color: #75006f; ----color de la barra
+  color: white;
+}
+
+
+background-image: url("/images/background.jpeg");
