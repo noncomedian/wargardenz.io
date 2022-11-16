@@ -176,7 +176,7 @@ app.all("*", (req, res, next) => {
   console.log("IP", ip);
   // if ip is in ban list, send 403
   if (moderation.bannedIps.includes(ip)) {
-    res.status(403).send("You are banned, contact gautam@swordbattle.io for appeal<br>Have a terrible day :)");
+    res.status(403).send("You are banned, contact gautam@wargardenz.io for appeal<br>Have a terrible day xd");
     return;
   } else next();
 } catch (e) {
@@ -691,7 +691,7 @@ app.get("/leaderboard", async (req, res) => {
 
 app.get("/settings", async (req, res) => {
   res.send(
-    "I'm still working on this page.<br><br>For now, if you want to change password, or change your username, please email<br>support@swordbattle.io"
+    "I'm still working on this page.<br><br>For now, if you want to change password, or change your username, please email<br>support@wargardenz.io"
   );
 });
 
@@ -793,7 +793,7 @@ io.on("connection", async (socket) => {
   if (moderation.bannedIps.includes(socket.ip)) {
     socket.send(
       "ban",
-      "You are banned. Appeal to appeals@swordbattle.io<br><br>BANNED IP: " +
+      "You are banned. Appeal to appeals@wargardenz.io<br><br>BANNED IP: " +
         socket.ip
     );
     socket.disconnect();
@@ -876,7 +876,7 @@ io.on("connection", async (socket) => {
 		if (!captchatoken && recaptcha) {
 			socket.send(
 				"ban",
-				"You were kicked for not sending a captchatoken. Send this message to bugs@swordbattle.io if you think this is a bug."
+				"You were kicked for not sending a captchatoken. Send this message to bugs@wargardenz.io if you think this is a bug."
 			);
 			return socket.disconnect();
 		}
@@ -887,7 +887,7 @@ io.on("connection", async (socket) => {
 		if (PlayerList.has(socket.id)) {
 			socket.send(
 				"ban",
-				"You were kicked for 2 players on 1 id. Send this message to support@swordbattle.io<br> In the meantime, try restarting your computer if this happens a lot. "
+				"You were kicked for 2 players on 1 id. Send this message to support@wargardenz.io<br> In the meantime, try restarting your computer if this happens a lot. "
 			);
 			return socket.disconnect();
 		}
@@ -921,7 +921,7 @@ io.on("connection", async (socket) => {
 					if (f.score < 0.3) {
 						socket.send(
 							"ban",
-							`Captcha score too low: ${f.score}<br><br>If you're using a vpn, disable it. <br>If your on incognito, go onto a normal window<br>If your not signed in to a google account, sign in<br><br>If none of these worked, contact support@swordbattle.io`
+							`Captcha score too low: ${f.score}<br><br>If you're using a vpn, disable it. <br>If your on incognito, go onto a normal window<br>If your not signed in to a google account, sign in<br><br>If none of these worked, contact support@wargardenz.io`
 						);
 						socket.disconnect();
 						return;
