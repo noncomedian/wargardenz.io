@@ -46,56 +46,56 @@
             "name": "amarillo",
             "displayName": "amarillo",
             "url": "/assets/images/amarilloPlayer.png",
-            "price": 2500,
+            "price": 5000,
             "description": "AMARILLO"
         },
         {
             "name": "nerdyn",
             "displayName": "nerdyn",
             "url": "/assets/images/nerdynPlayer.png",
-            "price": 3000,
+            "price": 10000,
             "description": "Ummm... emm... disculpa..."
         },
         {
             "name": "glich",
             "displayName": "glich",
             "url": "/assets/images/glichPlayer.png",
-            "price": 3000,
+            "price": 20000,
             "description": "error.exe"
         },
         {
             "name": "mariquita",
             "displayName": "mariquita",
             "url": "/assets/images/mariquitaPlayer.png",
-            "price": 3500,
+            "price": 20000,
             "description": "feliz feliz"
         },
         {
             "name": "hormiga",
             "displayName": "Hormiga",
             "url": "/assets/images/hormigaPlayer.png",
-            "price": 3600,
-            "description": ">>>:("
+            "price": 35000,
+            "description": "guerrero"
         },
         {
             "name": "uwu",
             "displayName": "UwU",
             "url": "/assets/images/uwuPlayer.png",
-            "price": 3800,
+            "price": 35000,
             "description": "UwU"
         },
         {
             "name": "clown",
             "displayName": "clown",
             "url": "/assets/images/clownPlayer.png",
-            "price": 3850,
+            "price": 40000,
             "description": "*honk honk*"
         },
         {
             "name": "pixel",
             "displayName": "Pixel",
             "url": "/assets/images/pixelPlayer.png",
-            "price": 3850,
+            "price": 45000,
             "description": "retro"
         },
         {
@@ -141,11 +141,25 @@
             "description": "galleta de chocolate"
         },
         {
+            "name": "chicle",
+            "displayName": "Chicle",
+            "url": "/assets/images/chiclePlayer.png",
+            "price": 90000,
+            "description": "*pop*"
+        },
+        {
             "name": "toxic",
             "displayName": "Toxic",
             "url": "/assets/images/toxicPlayer.png",
             "price": 90000,
             "description": "sabor ácido"
+        },
+        {
+            "name": "curiosito",
+            "displayName": "Curiosito",
+            "url": "/assets/images/curiositoPlayer.png",
+            "price": 100000,
+            "description": "...¿que estas mirando?"
         },
         {
             "name": "seta",
@@ -263,7 +277,7 @@
             "name": "savage",
             "displayName": "Savage",
             "url": "/assets/images/savagePlayer.png",
-            "price": 50000000,
+            "price": 60000000,
             "description": "corran!"
         }
         

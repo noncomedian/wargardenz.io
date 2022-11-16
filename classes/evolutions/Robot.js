@@ -1,8 +1,8 @@
 const Evolution = require("./Evolution");
-class Warrior extends Evolution {
+class Robot extends Evolution {
     constructor() {
         super();
-        this.name = "warrior";
+        this.name = "robot";
         this.abilityDuration = 5000;
         this.abilityCooldown = 90000;
         this.subEvolutions = [];
@@ -33,4 +33,4 @@ class Warrior extends Evolution {
         };
     }
 }
-module.exports = Warrior;
+module.exports = Robot;

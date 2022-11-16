@@ -55,8 +55,8 @@ var progress = 1 - (remainder / total);
   
         // samurai evolution
         this.load.image("samuraiPlayer", "/assets/images/samuraiSkin.png");
-        // warrior evolution
-        this.load.image("warriorPlayer", "/assets/images/warriorSkin.png");
+        // robot evolution
+        this.load.image("robotPlayer", "/assets/images/robotSkin.png");
         // knight evolution
         this.load.image("knightPlayer", "/assets/images/knightSkin.png");
 
@@ -67,8 +67,8 @@ var progress = 1 - (remainder / total);
 
         this.load.image("spiderPlayer", "/assets/images/spiderSkin.png");
         this.load.image("abejaPlayer", "/assets/images/abejaSkin.png");
-        // warrior evolution
-        this.load.image("warriorPlayer", "/assets/images/warriorSkin.png");
+        // robot evolution
+        this.load.image("robotPlayer", "/assets/images/robotSkin.png");
         // knight evolution
         this.load.image("knightPlayer", "/assets/images/knightSkin.png");
 

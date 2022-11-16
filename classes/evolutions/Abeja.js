@@ -2,7 +2,7 @@
 
 const Evolution = require("./Evolution");
 
-const Warrior = require("./Warrior");
+const Robot = require("./Robot");
 const Rook = require("./Rook");
 
 class Abeja extends Evolution {
@@ -11,7 +11,7 @@ class Abeja extends Evolution {
         this.name = "abeja";
         this.abilityDuration = 5000;
         this.abilityCooldown = 60000;
-        this.subEvolutions = [20000, new Warrior(), new Rook()];
+        this.subEvolutions = [20000, new Robot(), new Rook()];
     }
     default() {
         return {
