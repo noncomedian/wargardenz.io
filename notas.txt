@@ -29,3 +29,7 @@ line: 33 "loaging en pantalla verde inicial"
 
 Tittle Scene:
 line: 179 = TITULO DEL JUEGO EN PANTALLA PRINCIPAL
+
+
+PROMO:
+<strong style="color: orange;">- By: AldoRmzCode (<a href="https://github.com/AldoRmzCode" style="color: aqua;">more</a>)</strong>
