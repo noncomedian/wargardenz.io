@@ -438,7 +438,7 @@ class GameScene extends Phaser.Scene {
 								this.deadText.setFontSize(Math.min(this.canvas.width/25,this.canvas.height/20));
 								this.deadText.y += this.deadText.height;
 								
-								var msgs = ["Nooooooooo", "Rest in peace", "You can do better!", "Practice makes perfect!", "Keep trying!", "gg"];
+								var msgs = ["Nooooooooo", "Rest in peace", "Practice makes perfect!", "Keep trying!", "gg"];
 								var msg = msgs[Math.floor(Math.random() * msgs.length)];
               this.dataText.destroy();
 								this.dataText = this.add.text(this.canvas.width/2, this.deadText.y, msg, {fontFamily: "Arial", fontSize: "32px", color: "#ffffff"}).setOrigin(0.5);
@@ -1654,7 +1654,7 @@ class GameScene extends Phaser.Scene {
 								this.deadText.setFontSize(Math.min(this.canvas.width/25,this.canvas.height/20));
 								this.deadText.y += this.deadText.height;
                 
-																var msgs = ["Nooooooooo", "Rest in peace", "You can do better!", "Practice makes perfect!", "Keep trying!", "gg"];
+																var msgs = ["Nooooooooo", "Rest in peace", "Practice makes perfect!", "Keep trying!", "gg"];
 								var msg = msgs[Math.floor(Math.random() * msgs.length)];
 								this.dataText = this.add.text(this.canvas.width/2, this.deadText.y, msg, {fontFamily: "Arial", fontSize: "32px", color: "#ffffff"}).setOrigin(0.5);
 								this.dataText.setFontSize(Math.min(this.canvas.width/40, this.canvas.height/30));
