@@ -16,7 +16,7 @@ function handleConnection() {
   
   if (!navigator.onLine) {
 
-    		document.write("<h1>You got disconnected</h1><br><button onclick=\"location.reload()\"><h1>Refresh</h1></button>");
+    		document.write("<h1>Disconnected</h1><br><button onclick=\"location.reload()\"><h1>Refresh</h1></button>");
   } else {
     		document.write("<h1>You're back online! Refresh to play!</h1>");
   }

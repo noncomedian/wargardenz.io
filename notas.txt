@@ -2,9 +2,7 @@ asasdasf
 02/11/2022: commit "prueba heroku con github"
 
 10/11/2022; se borra "Procfile"
-
 alternativa nueva: NUEVA BASE DE DATOS.
-
 
 
 CSS:
@@ -33,3 +31,20 @@ line: 179 = TITULO DEL JUEGO EN PANTALLA PRINCIPAL
 
 PROMO:
 <strong style="color: orange;">- By: AldoRmzCode (<a href="https://github.com/AldoRmzCode" style="color: aqua;">more</a>)</strong>
+
+
+------------------------IMPORTANTE: ------------------
+GOOGLE:
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-35EKK5X5R4"></script>
+ googletagmanager = Analytics
+
+cambios:
+ in line: 34 y 54:
+ 35EKK5X5R4 ---->   9WT9ZX08W0   
+antes                  despues
+
+
+
+++++++++++++++++++++SERVIDORES+++++++++++++++++++++++++++++
+SOLO INFO:
+
