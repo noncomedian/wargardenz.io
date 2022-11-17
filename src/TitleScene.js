@@ -371,7 +371,7 @@ class TitleScene extends Phaser.Scene {
               this.nameBox.getChildByName("name").disabled = true;
               this.nameBox.getChildByName("name").classList.add("loggedin");
 
-              this.nameBox.getChildByName("btn").innerHTML = "Play";
+              this.nameBox.getChildByName("btn").innerHTML = "Play!";
               this.nameBox.getChildByName("btn").disabled = false;
 
               this.accountData = res.data;
