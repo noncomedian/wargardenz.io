@@ -279,6 +279,20 @@
             "url": "/assets/images/savagePlayer.png",
             "price": 60000000,
             "description": "corran!"
+        },
+        {
+            "name": "hormigatribu",
+            "displayName": "Hormiga TRIBU",
+            "url": "/assets/images/hormigatribuPlayer.png",
+            "price": 77777777,
+            "description": "DESATA LA FUERZA DE WARGARDENZ"
+        },
+        {
+            "name": "cajaregalo",
+            "displayName": "caja de regalo",
+            "url": "/assets/images/cajaregaloPlayer.png",
+            "price": 0,
+            "description": "caja de regalo, gracias por jugar"
         }
         
     ]
