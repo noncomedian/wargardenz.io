@@ -3,6 +3,7 @@ import ImgButton from "./components/PhaserImgButton";
 import { subscribe, isSupported } from "on-screen-keyboard-detector";
 import ClassPicker from "./components/ClassPicker.js";
 import {locations} from "./bushes.json";
+import {tlocations} from "./trampas.json";
 import Phaser from "phaser";
 import {CAPTCHASITE,localServer} from "./../config.json";
 
@@ -372,6 +373,14 @@ class GameScene extends Phaser.Scene {
 					this.UICam.ignore(this.bushes[this.bushes.length-1]);
 				});
 				
+				//trampas
+				this.trampas = [];
+
+				tlocations.forEach((l,i) => {
+					if(i%2==0) return;
+							  this.trampas.push(this.add.image(l.x, l.y, "trampa").setScale(l.scale).setDepth(70));
+							  this.UICam.ignore(this.trampas[this.trampas.length-1]);
+						  });
 
 
 				this.input.addPointer(3);

@@ -41,7 +41,7 @@ class Player {
     // end of hardcoded values
 
     this.ability = 0;
-    this.abilityActive = false;
+    this.abilityActive = false;  //player normal sin evolucion
     
    this.skin = "player";
     this.levelScale = 0.25;
@@ -49,7 +49,7 @@ class Player {
     this.resistance = 20;
     this.power = 200;
 
-    this.maxHealth = 100;
+    this.maxHealth = 100;  //vida de player
     this.lastPos = this.pos;
     this.lastSwing = Date.now();
     this.joinTime = Date.now();
@@ -281,6 +281,7 @@ var move = true;
       ) this.evolutionQueue.push(evolutions[this.evolution].subEvolutions.slice(1).map((e)=>e.name));
 
   }
+  //daño a jugadores (golpear al jugador):
   hittingPlayer(player) {
 
   
@@ -304,7 +305,7 @@ var move = true;
                        
                           var radius = player.radius *player.scale;
 
-                          //check if enemy and player colliding
+                          //check if enemy and player colliding (comprobar si el enemigo y el jugador colisionan):
                           if(intersects.lineCircle(tip[0], tip[1], base[0], base[1], player.pos.x, player.pos.y, radius)) return true;
 
   }

@@ -22,7 +22,7 @@ class AiPlayer extends Player {
         
     }
     tick(coins, io, levels, chests) {
-      if(PlayerList.deadPlayers.includes(this.id)) {
+      if(PlayerList.deadPlayers.includes(this.id)) {  //matar player
         PlayerList.deletePlayer(this.id);
       } else {
 const lerp = (x, y, a) => x * (1 - a) + y * a; 
