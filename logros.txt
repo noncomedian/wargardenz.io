@@ -1,0 +1,16 @@
+//10 kills in a game
+//25 kills in a game
+//50 kills in a game
+
+//10 double kill in a game
+//10 triple kill in a game
+
+//50000 coins in a game
+//100000 coins in a game
+//500000 coins in a game
+
+//20 chest in a game
+
+// no se XD
+
+

@@ -725,7 +725,7 @@ class GameScene extends Phaser.Scene {
 						bar: new HealthBar(this, player.pos.x, player.pos.y + 55),
 						nameTag: this.add.rexBBCodeText(player.pos.x, player.pos.y - 90, `${player.name}`, {
 							fontFamily: "serif",
-							fill: player.verified?player.name.toLowerCase()=="AldoRmzCode" ||player.name.toLowerCase()=="codergautam"||player.name.toLowerCase()=="cosmicwarlord"?"#FF0000":"#0000FF" :"#000000",
+							fill: player.verified?player.name.toLowerCase()=="AldoRmzCode" ||player.name.toLowerCase()=="codergautam"||player.name.toLowerCase()=="cosmicwarlord"?"#FF0000":"#ff00ae" :"#000000",
 							fontSize: "25px"
 						}).setDepth(69).setAlpha(player.verified?1:0.5),
 						swordAnim: {go: false, added: 0},
@@ -1419,6 +1419,7 @@ class GameScene extends Phaser.Scene {
 					}
 					this.hit.play();
 				});
+				//pasrticulas:
 				this.socket.on("takeHit", ([playerId, pPos]) => {
 					if(this.sys.game.loop.actualFps < 30) return;
 					this.damage.play();
