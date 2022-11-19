@@ -48,17 +48,17 @@ class HealthBar {
         if(!this.custom) {
         if (this.value/this.maxValue < 0.30)
         {
-            this.bar.fillStyle(0xff0000);
+            this.bar.fillStyle(0xff0000); //rojo
         }
         else if(this.value/this.maxValue  < 0.5) {
-           this.bar.fillStyle(0xFFFF00); 
+           this.bar.fillStyle(0xFFFF00);  //amarillo
         } else
         {
-            this.bar.fillStyle(0x00ff00);
+            this.bar.fillStyle(0x00ff00); //verde
         }
     } else {
 
-        this.bar.fillStyle(0x00FFFF);
+        this.bar.fillStyle(0xff00e6); //barra de experiencia o de nivel
     }
 
         var d = Math.floor((this.width-4) * (this.value/this.maxValue));

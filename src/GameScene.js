@@ -117,12 +117,12 @@ class GameScene extends Phaser.Scene {
 				this.killCount = this.add.rexBBCodeText(15, 10, "Stabs: 0", {
 					fontFamily: "Georgia, \"Goudy Bookletter 1911\", Times, serif",
 				}).setFontSize(40).setDepth(101);
-				this.killCount.addImage("coin", {
+				this.killCount.addImage("coin", { //IMAGE
 					key: "coin",
 					width: 45,
 					height: 45
 				});
-				this.killCount.addImage("kill", {
+				this.killCount.addImage("kill", { //IMAGE
 					key: "kill",
 					width: 45,
 					height: 45
@@ -132,7 +132,7 @@ class GameScene extends Phaser.Scene {
 
 		
 
-				//player+fpscounter
+				//player+fpscounter            leaderboard jugando:
 
 					this.playerCount = this.add.text(0, 0, "Players: 0" + (!this.mobile ? "\nFPS: 0\nTPS: 0\nPing: 0 ms":""), {
 						fontFamily: "Georgia, \"Goudy Bookletter 1911\", Times, serif",
@@ -161,9 +161,9 @@ class GameScene extends Phaser.Scene {
 				this.miniMap.scaleFactor = convert(1189, 96, this.canvas.width);
 				this.miniGraphics.x = this.canvas.width - ((this.miniMap.scaleFactor * 2) + padding);
 				this.miniGraphics.y = this.canvas.height - ((this.miniMap.scaleFactor * 2) + padding);
-				this.miniGraphics.lineStyle(5, 0xffff00, 1);
+				this.miniGraphics.lineStyle(5, 0x120007, 1); //color de borde de mapa/ minimapa
 				this.miniGraphics.strokeRoundedRect(0, 0, this.miniMap.scaleFactor * 2,  this.miniMap.scaleFactor * 2, 0);
-
+				//habilidad
 				this.abilityButton = this.add.image((this.canvas.width /5), (this.canvas.height /5)*4, "abilityBtn").setDepth(101).setScale(0.9).setVisible(false);
 				this.abilityButton.setInteractive();
 				this.abilityButton.on("pointerdown", () => {
@@ -354,7 +354,7 @@ class GameScene extends Phaser.Scene {
 					console.log(e);
 				}
 				//camera follow
-				this.cameras.main.setZoom(1);
+				this.cameras.main.setZoom(0.5); //zoom del juego
         
 				this.classPicker = new ClassPicker(this);
         
@@ -419,7 +419,7 @@ class GameScene extends Phaser.Scene {
 						this.miniMap.scaleFactor = convert(1189, 96, this.canvas.width);
 						this.miniGraphics.x = this.canvas.width - ((this.miniMap.scaleFactor * 2) + padding);
 						this.miniGraphics.y = this.canvas.height - ((this.miniMap.scaleFactor * 2) + padding);
-						this.miniGraphics.lineStyle(5, 0xffff00, 1);
+						this.miniGraphics.lineStyle(5, 0x120007, 1); //color de borde de mapa/ minimapa
 						this.miniGraphics.strokeRoundedRect(0, 0, this.miniMap.scaleFactor * 2,  this.miniMap.scaleFactor * 2, 0);
 
 
@@ -601,14 +601,14 @@ class GameScene extends Phaser.Scene {
 					document.write(data);
 				});
 
-				//boundary
+				//boundary o frontera
 				this.graphics = this.add.graphics().setDepth(4);
 				var thickness = 5000;
-				this.graphics.lineStyle(thickness, 0x006400, 1);
+				this.graphics.lineStyle(thickness, 0x1f0014, 1); //color de afuera del borde del mapa
 
 				this.graphics.strokeRoundedRect(-(map/2) - (thickness/ 2), -(map/2) - (thickness/ 2), map + thickness, map + thickness, 0 );
 
-				this.graphics.lineStyle(10, 0xffff00, 1);
+				this.graphics.lineStyle(10, 0x120007, 1); //COLOR DEL BORDE DEL MAPA GRANDE (frontera)
 
 				this.graphics.strokeRoundedRect(-(map/2), -(map/2), map, map, 0);
 
@@ -1361,7 +1361,7 @@ class GameScene extends Phaser.Scene {
 						} else {
 
 						this.streak = 0;
-					var txt = `[b][color=#e82a1f]Stabbed [/color][color=#0000FF]${enemy.playerObj.name}[/color][/b]`;
+					var txt = `[b][color=#ffb405]Stabbed [/color][color=#1ac6e8]${enemy.playerObj.name}[/color][/b]`;
 						}
 					var text = this.add.rexBBCodeText(this.canvas.width/2, this.canvas.height, txt).setOrigin(0.5).setAlpha(0).setFontSize(fontsize);
 					text.setData("index", this.killtxts.length);
@@ -1419,7 +1419,7 @@ class GameScene extends Phaser.Scene {
 					}
 					this.hit.play();
 				});
-				//pasrticulas:
+				//particulas:
 				this.socket.on("takeHit", ([playerId, pPos]) => {
 					if(this.sys.game.loop.actualFps < 30) return;
 					this.damage.play();
